@@ -1,0 +1,71 @@
+body{
+  text-align: center;
+}
+
+.menu{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+.slogan{
+  padding: 10px;
+  border: solid;
+  margin-right: 10px;
+}
+.menuDIV{
+ margin-right: 10px;
+}
+.menuDIV:hover{
+  color: tomato;
+}
+.clique{
+  cursor: pointer;
+}
+.cadastrar{
+  background-color: #727e73;
+    border: none;
+    border-radius: 4%;
+    color: #382727;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    padding: 12px 30px;
+    text-align: center;
+    text-decoration: none;
+    transition-duration: .4s;
+}
+.buttun_fim{
+  background-color: purple;
+  border: none;
+  color: rgb(255, 255, 255);
+  border-radius: 4%;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  padding: 12px 30px;
+  text-align: center;
+  text-decoration: none;
+  transition-duration: .4s;
+}
+.img{
+  background-image: url('./image/transferir.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline-flex;
+  text-align: center;
+  width: 200px;
+  height: 200px;
+}
+.carregando{
+  background-image: url('http://portal.ufvjm.edu.br/a-universidade/cursos/grade_curricular_ckan/loading.gif/@@images/image.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline-flex;
+  text-align: center;
+  width: 200px;
+  height: 200px;
+}
